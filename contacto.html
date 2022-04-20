@@ -33,19 +33,32 @@
     </header>
 
     <main class="contenedor">
-            <h3 class="centrar-texto">Contacto</h3>
+        <h3 class="centrar-texto">Contacto</h3>
+        
+        <div class="contacto-bg"></div>
 
-            <div class="sobre-nosotros">
-                <div class="sobre-nosotros__imagen">
-                    <img src="/img/nosotros.jpg" alt="imagen nosotros">
-                </div>
-
-                <div class="sobre-nosotros__texto">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio laborum alias, placeat dolor optio necessitatibus voluptas ullam similique repellendus quo laudantium minima consectetur ea asperiores, facere eaque repellat culpa cumque blanditiis, consequuntur sapiente iure perspiciatis. Quos, alias? Molestiae, officia ex?Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet soluta alias aspernatur voluptatibus delectus hic possimus quae repudiandae saepe temporibus nulla beatae </p>
-                </div>
+        <form class="formulario">
+            <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Tú Nombre" id="nombre">
             </div>
+
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" placeholder="Tú E-mail" id="email">
+            </div>
+
+            <div class="campo">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje"></textarea>
+            </div>
+
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+
+        </form>
+            
     </main>
 
     <footer class="footer">
