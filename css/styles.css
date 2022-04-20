@@ -186,3 +186,25 @@ img{
     margin-top: 4rem;
 }
 
+/* sobre nosotros */
+
+/* se puede relizar con flex de la siguiente manera
+   @media (min-width: 768px) {
+    .sobre-nosotros{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sobre-nosotros__imagen,
+    .sobre-nosotros__texto{
+        flex-basis: calc(50% - 1rem);
+    }
+} */
+
+/* con grid */
+@media (min-width: 768px) {
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
