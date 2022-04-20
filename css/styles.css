@@ -208,3 +208,32 @@ img{
         column-gap: 2rem;
     }
 }
+
+/* página cursos */
+.curso{
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--gris);
+}
+@media (min-width: 768px) {
+    .curso{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+.curso:last-of-type{
+    border: none;
+}
+
+.curso__label{
+    font-family: var(--fuenteHeading);
+    font-weight: 700;
+
+}
+.curso__info{
+    font-weight: 400;
+}
+.curso__label,
+.curso__info{
+    font-size: 2rem;
+}
