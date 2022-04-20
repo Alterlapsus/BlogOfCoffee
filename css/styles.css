@@ -143,12 +143,17 @@ img{
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
+    border: none;
 }
+
 @media (min-width: 768px) {
     .boton{
         /* display: inline; es inmune al margin y al width  */
         display: inline-block;  /* si respetará el margin y el width */
     }
+}
+.boton:hover{
+    cursor: pointer;
 }
 .boton--primario{
     background-color: var(--primario);
@@ -244,4 +249,28 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.formulario{
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+.campo{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.campo__label{
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+.campo__field{
+    flex: 1;
+    border: 1px solid var(--gris);
+    overflow: hidden;
+}
+.campo__field--textarea{
+    height: 20rem;
 }
