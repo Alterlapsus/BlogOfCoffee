@@ -3,6 +3,7 @@
     --fuenteParrafos: 'Open Sans', sans-serif;
 
     --primario: #784D3C;
+    --gris: #e1e1e1;
     --blanco: #ffffff;
     --negro: #000000; 
 }
@@ -116,4 +117,35 @@ img{
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
+}
+
+.entrada{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.entrada:last-of-type{/* selecciona el ultimo article con la clase entrada */
+    border: none;
+    margin-bottom: 0;
+}
+
+.boton{
+    display: block;
+}
+@media (min-width: 768px) {
+    .boton{
+        /* display: inline; es inmune al margin y al width  */
+        display: inline-block;  /* si respetará el margin y el width */
+    }
+}
+.boton--primario{
+    background-color: var(--negro);
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
 }
