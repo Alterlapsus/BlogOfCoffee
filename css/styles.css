@@ -257,6 +257,7 @@ img{
     width: 95%;
     padding: 5rem;
 }
+
 .campo{
     display: flex;
     margin-bottom: 2rem;
@@ -269,8 +270,13 @@ img{
 .campo__field{
     flex: 1;
     border: 1px solid var(--gris);
-    overflow: hidden;
+    overflow: auto;
 }
 .campo__field--textarea{
     height: 20rem;
+}
+
+.derecha{
+    display: block;
+    margin-left: auto;
 }
