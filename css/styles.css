@@ -152,6 +152,16 @@ img{
         display: inline-block;  /* si respetará el margin y el width */
     }
 }
+.derecha{
+    display: block;
+    margin-left: auto;
+    width: 90%;
+}
+@media (min-width: 768px) {
+    .boton{
+        width: auto;
+    }
+}
 .boton:hover{
     cursor: pointer;
 }
@@ -257,7 +267,7 @@ img{
     width: 95%;
     padding: 5rem;
 }
-
+   
 .campo{
     display: flex;
     margin-bottom: 2rem;
@@ -276,7 +286,4 @@ img{
     height: 20rem;
 }
 
-.derecha{
-    display: block;
-    margin-left: auto;
-}
+
