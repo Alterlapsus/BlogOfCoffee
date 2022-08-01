@@ -26,14 +26,10 @@ Tecnologías utilizadas:
 Descargar de archivos: 
 
 - git 
-- git clone https://blogcafealter.netlify.app/
+- git clone https://github.com/Alterlapsus/BlogOfCoffee.git
 
 ---
 
 Realizado por: 
 
 - Israel de León 
-
----
-
-
