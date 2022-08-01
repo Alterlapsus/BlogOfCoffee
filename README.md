@@ -1,6 +1,6 @@
 # BlogDeCafe
 
-- Creando blog responsive utilizando HTML y CSS  
+- Se crea un sitio web responsive, tipo blog utilizando HTML y CSS. 
 
 ---
 
