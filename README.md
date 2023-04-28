@@ -6,7 +6,7 @@
 <a href="https://blogcafealter.netlify.app/">Ver WebSite</a>
    
 - Desktop
-
+ 
 <a href="https://postimg.cc/rz2nXqYT" target="_blank"><img src="https://i.postimg.cc/8kjqv5R7/desktop.png" alt="desktop"/></a><br/><br/>
 
 - Mobile
