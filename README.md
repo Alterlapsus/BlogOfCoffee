@@ -2,7 +2,7 @@
 
 - Se crea sitio web responsive, tipo blog para practicar los conocimientos de HTML y CSS. 
  
-
+ 
 <a href="https://blogcafealter.netlify.app/">Ver WebSite</a>
    
 - Desktop
